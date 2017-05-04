@@ -56,6 +56,7 @@ public class ReportCard {
         this.mStudent = student;
     }
 
+    // Would have used a StringBuilder here, but the rubric specifically says to use a toString() method
     @Override
     public String toString(){
 
